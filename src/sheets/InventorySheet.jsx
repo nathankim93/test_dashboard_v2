@@ -546,7 +546,7 @@ export function InventorySheet() {
 
   useEffect(() => {
     if (data) return;
-    fetch("/data/inventory.json")
+    fetch(`${import.meta.env.BASE_URL}data/inventory.json`)
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((j) => setData(j))
       .catch(() => setStatus("Data file missing. Use Update Data to upload inventory.json."));

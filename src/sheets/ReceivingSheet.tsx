@@ -304,7 +304,7 @@ export function ReceivingSheet() {
   const [barMode, setBarMode] = useState<BarMode>('daily')
 
   useEffect(() => {
-    fetch('/data/receiving.json?t=' + Date.now())
+    fetch(`${import.meta.env.BASE_URL}data/receiving.json?t=` + Date.now())
       .then((r) => {
         if (!r.ok) throw new Error('receiving.json not found. Run Update_All_Data.bat')
         return r.json()
