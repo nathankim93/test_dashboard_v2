@@ -14,7 +14,7 @@ export function useHealthData() {
         setLoading(true)
         const response = await fetch(`${import.meta.env.BASE_URL}data/channels.json`)
         if (!response.ok) {
-          throw new Error('Healthiness 데이터를 불러오지 못했습니다.')
+          throw new Error('Failed to load healthiness data.')
         }
         const json = (await response.json()) as HealthDataset
         if (!cancelled) {
@@ -23,7 +23,7 @@ export function useHealthData() {
         }
       } catch (err) {
         if (!cancelled) {
-          setError(err instanceof Error ? err.message : '알 수 없는 오류')
+          setError(err instanceof Error ? err.message : 'Unknown error')
         }
       } finally {
         if (!cancelled) setLoading(false)

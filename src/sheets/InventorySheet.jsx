@@ -536,7 +536,6 @@ export function InventorySheet() {
   const [metric, setMetric] = useState("Unit");
   const [status, setStatus] = useState("");
   const [pdfBusy, setPdfBusy] = useState(false);
-  const fileRef = useRef(null);
   const exportRef = useRef(null);
 
   const metricOpts = useMemo(() => {
@@ -549,7 +548,7 @@ export function InventorySheet() {
     fetch(`${import.meta.env.BASE_URL}data/inventory.json`)
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((j) => setData(j))
-      .catch(() => setStatus("Data file missing. Use Update Data to upload inventory.json."));
+      .catch(() => setStatus("Data file missing. Check public/data/inventory.json."));
   }, [data]);
 
   useEffect(() => {
@@ -649,42 +648,12 @@ export function InventorySheet() {
     }
   }
 
-  function onUpdateClick() {
-    fileRef.current && fileRef.current.click();
-  }
-
-  function onFileChange(e) {
-    const file = e.target.files && e.target.files[0];
-    if (!file) return;
-    setStatus("Loading " + file.name + "...");
-    const reader = new FileReader();
-    reader.onload = () => {
-      try {
-        const json = JSON.parse(reader.result);
-        if (!json.daily || !json.season || !json.lifeCycle) {
-          throw new Error("Invalid inventory JSON structure");
-        }
-        setData(json);
-        window.__INVENTORY_DATA__ = json;
-        setStatus("Updated · " + (json.latestDateLabel || fmtDate(json.latestDate)));
-      } catch (err) {
-        setStatus("Update failed: upload inventory.json (run Update Data.bat for Query xlsx).");
-      }
-      e.target.value = "";
-    };
-    reader.readAsText(file);
-  }
-
   if (!data) {
     return (
       <div className="mx-auto flex min-h-screen max-w-xl flex-col justify-center px-6">
         <div className="mck-rule mb-4" />
         <h1 className="font-serif text-3xl font-semibold text-mck-navy">{DASHBOARD_TITLE}</h1>
         <p className="mt-3 text-sm text-mck-gray">{status || "Loading..."}</p>
-        <button type="button" onClick={onUpdateClick} className="mt-6 w-fit bg-mck-navy px-4 py-2 text-sm font-semibold text-white">
-          Update Data
-        </button>
-        <input ref={fileRef} type="file" accept=".json,application/json" className="hidden" onChange={onFileChange} />
       </div>
     );
   }
@@ -720,14 +689,6 @@ export function InventorySheet() {
             >
               {pdfBusy ? "Preparing PDF..." : "Download Interactive PDF"}
             </button>
-            <button
-              type="button"
-              onClick={onUpdateClick}
-              className="bg-mck-teal px-4 py-2.5 text-sm font-semibold text-white hover:bg-mck-tealDeep"
-            >
-              Update Data
-            </button>
-            <input ref={fileRef} type="file" accept=".json,application/json" className="hidden" onChange={onFileChange} />
           </div>
         </header>
 

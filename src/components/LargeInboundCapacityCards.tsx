@@ -15,8 +15,8 @@ export function LargeInboundCapacityCards({
     <section className="mck-panel mb-8 p-5 md:p-6">
       <SectionHead
         number="03"
-        title="Large Carton 입고 가능 수량 — HB.A vs HB.B"
-        subtitle={`${scopeLabel} · (Large Channel + Empty) × 93% × 2 − 현재 Large 수량`}
+        title="Large Carton Inbound Capacity — HB.A vs HB.B"
+        subtitle={`${scopeLabel} · (Large Channel + Empty) × 93% × 2 − current Large qty`}
       />
 
       <div className="grid gap-px bg-mck-line md:grid-cols-2">
@@ -30,7 +30,7 @@ export function LargeInboundCapacityCards({
               <div className="kpi-num mt-2 font-serif text-[32px] font-semibold leading-none text-mck-navy">
                 {formatNumber(Math.round(cap.availableQty))}
               </div>
-              <div className="mt-1.5 text-[18px] font-semibold text-mck-teal">입고 가능 수량</div>
+              <div className="mt-1.5 text-[18px] font-semibold text-mck-teal">Available Inbound Qty</div>
 
               <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-[18px] text-mck-gray">
                 <div className="flex justify-between gap-2">
@@ -58,13 +58,13 @@ export function LargeInboundCapacityCards({
                   </dd>
                 </div>
                 <div className="flex justify-between gap-2">
-                  <dt>전체 가능</dt>
+                  <dt>Total Capacity</dt>
                   <dd className="kpi-num font-medium text-mck-navy">
                     {formatNumber(Math.round(cap.totalCapacity))}
                   </dd>
                 </div>
                 <div className="flex justify-between gap-2">
-                  <dt>현재 수량</dt>
+                  <dt>Current Qty</dt>
                   <dd className="kpi-num font-medium text-mck-navy">
                     {formatNumber(Math.round(cap.currentQty))}
                   </dd>

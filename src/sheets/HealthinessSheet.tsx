@@ -17,7 +17,7 @@ export function HealthinessSheet() {
   if (error || !data) {
     return (
       <div className="flex min-h-[40vh] items-center justify-center bg-white px-6 text-center text-red-700">
-        {error ?? '데이터를 표시할 수 없습니다. Update_All_Data.bat 로 channels.json 을 갱신하세요.'}
+        {error ?? 'Unable to display data. Refresh public/data/channels.json via Update_All_Data.bat.'}
       </div>
     )
   }

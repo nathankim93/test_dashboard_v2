@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import type { HealthDataset } from '../types/health'
 import { formatNumber } from '../lib/metrics'
-import { downloadDashboardPdf } from '../lib/exportPdf'
 
 interface DashboardHeaderProps {
   data: HealthDataset
@@ -10,36 +8,14 @@ interface DashboardHeaderProps {
 }
 
 export function DashboardHeader({ data, embedded = false }: DashboardHeaderProps) {
-  const [exporting, setExporting] = useState(false)
   const generated = new Date(data.generatedAt)
-  const dateLabel = generated.toLocaleString('ko-KR', {
+  const dateLabel = generated.toLocaleString('en-US', {
     year: 'numeric',
     month: '2-digit',
     day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
   })
-
-  async function handleDownloadPdf() {
-    if (exporting) return
-    const target = document.getElementById('dashboard-export-health') || document.getElementById('dashboard-export')
-    if (!target) {
-      window.alert('대시보드 영역을 찾을 수 없습니다.')
-      return
-    }
-
-    try {
-      setExporting(true)
-      await new Promise((resolve) => window.setTimeout(resolve, 50))
-      await downloadDashboardPdf(target)
-    } catch (error) {
-      console.error(error)
-      const message = error instanceof Error ? error.message : '알 수 없는 오류'
-      window.alert(`PDF 생성에 실패했습니다.\n\n${message}`)
-    } finally {
-      setExporting(false)
-    }
-  }
 
   return (
     <>
@@ -67,8 +43,8 @@ export function DashboardHeader({ data, embedded = false }: DashboardHeaderProps
               Highbay Healthiness Status
             </h1>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-mck-gray md:text-[15px]">
-              HB.A / HB.B 채널 적재 상태(Full · Half · Empty)와 카톤 규격(S · M · L), Large Carton
-              입고 가능 수량을 비교합니다.
+              Compare HB.A and HB.B channel load status (Full · Half · Empty), carton sizes (S · M · L),
+              and large-carton inbound capacity.
             </p>
           </div>
 
@@ -79,15 +55,6 @@ export function DashboardHeader({ data, embedded = false }: DashboardHeaderProps
               </div>
               <div className="kpi-num mt-0.5 text-sm font-semibold text-mck-navy">{dateLabel}</div>
             </div>
-            <button
-              type="button"
-              data-html2canvas-ignore="true"
-              onClick={() => void handleDownloadPdf()}
-              disabled={exporting}
-              className="border border-mck-navy bg-white px-4 py-2.5 text-sm font-semibold text-mck-navy hover:bg-mck-mist disabled:opacity-60"
-            >
-              {exporting ? 'Preparing PDF...' : 'Download PDF'}
-            </button>
           </div>
         </header>
 

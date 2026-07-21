@@ -59,7 +59,7 @@ export function HighbayComparisonSection({
       <ChannelStatusCharts
         number="01"
         title="Channel Qty — HB.A vs HB.B"
-        subtitle={`${cartonSizeLabel} · ${locationLabel} · Full(12) · Half(1–11) · Empty(0) 채널 수 비교`}
+        subtitle={`${cartonSizeLabel} · ${locationLabel} · Full(12) · Half(1–11) · Empty(0) channel count comparison`}
         series={channelSeries}
         right={channelSlicers}
       />
@@ -67,7 +67,7 @@ export function HighbayComparisonSection({
       <CartonQtyCharts
         number="02"
         title="Carton Qty by Size — HB.A vs HB.B"
-        subtitle={`${locationLabel} · 카톤 규격(S / M / L) 적재 수량`}
+        subtitle={`${locationLabel} · Carton size (S / M / L) loaded quantity`}
         series={locationSeries}
       />
 

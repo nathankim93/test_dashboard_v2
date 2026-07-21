@@ -9,7 +9,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
     const img = new Image()
     img.onload = () => resolve(img)
-    img.onerror = () => reject(new Error('캡처 이미지를 불러오지 못했습니다.'))
+    img.onerror = () => reject(new Error('Failed to load captured image.'))
     img.src = src
   })
 }
@@ -105,7 +105,7 @@ export async function downloadDashboardPdf(element: HTMLElement): Promise<void> 
     const dataUrl = await captureJpeg(element)
 
     if (!dataUrl || dataUrl.length < 100) {
-      throw new Error('대시보드 이미지 캡처에 실패했습니다.')
+      throw new Error('Failed to capture dashboard image.')
     }
 
     const image = await loadImage(dataUrl)
