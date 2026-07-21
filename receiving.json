@@ -1,0 +1,888 @@
+{
+  "meta": {
+    "warehouse": "1088",
+    "sourceFile": "AP_MUL_KR_In-transit_SLIM9_2019_JLE368_VER4.xlsx",
+    "sourcePath": "c:\\Users\\nkim60\\OneDrive - Nike\\바탕 화면\\Amberroad_GR\\AP_MUL_KR_In-transit_SLIM9_2019_JLE368_VER4.xlsx",
+    "updatedAt": "2026-07-21T04:03:56.855Z",
+    "asOfDate": "2026-07-20",
+    "asOfLabel": "20-Jul",
+    "weekLabel": "20-Jul ~ 26-Jul",
+    "weekStart": "2026-07-20",
+    "weekEnd": "2026-07-26",
+    "recordCount": 2880,
+    "dateRange": {
+      "from": "2026-07-01",
+      "to": "2026-07-20"
+    },
+    "divisions": [
+      "AP",
+      "FW",
+      "EQ"
+    ],
+    "divisionLabels": {
+      "AP": "10 · AP",
+      "FW": "20 · FW",
+      "EQ": "30 · EQ"
+    }
+  },
+  "normal": {
+    "dailyKpi": {
+      "units": 118014,
+      "cartons": 5638,
+      "byDiv": {
+        "AP": {
+          "units": 83682,
+          "cartons": 3117
+        },
+        "FW": {
+          "units": 16508,
+          "cartons": 2193
+        },
+        "EQ": {
+          "units": 17824,
+          "cartons": 328
+        }
+      }
+    },
+    "weeklyKpi": {
+      "units": 118014,
+      "cartons": 5638,
+      "byDiv": {
+        "AP": {
+          "units": 83682,
+          "cartons": 3117
+        },
+        "FW": {
+          "units": 16508,
+          "cartons": 2193
+        },
+        "EQ": {
+          "units": 17824,
+          "cartons": 328
+        }
+      }
+    },
+    "all": {
+      "units": 1282443,
+      "cartons": 83774,
+      "byDiv": {
+        "AP": {
+          "units": 737242,
+          "cartons": 26545
+        },
+        "FW": {
+          "units": 456370,
+          "cartons": 54867
+        },
+        "EQ": {
+          "units": 88831,
+          "cartons": 2362
+        }
+      },
+      "lines": 1857
+    },
+    "dailySeries": [
+      {
+        "date": "2026-07-01",
+        "label": "01-Jul",
+        "AP": {
+          "units": 90068,
+          "cartons": 2644
+        },
+        "FW": {
+          "units": 14258,
+          "cartons": 2273
+        },
+        "EQ": {
+          "units": 1781,
+          "cartons": 75
+        },
+        "total": {
+          "units": 106107,
+          "cartons": 4992
+        }
+      },
+      {
+        "date": "2026-07-02",
+        "label": "02-Jul",
+        "AP": {
+          "units": 71895,
+          "cartons": 2293
+        },
+        "FW": {
+          "units": 15422,
+          "cartons": 1774
+        },
+        "EQ": {
+          "units": 2460,
+          "cartons": 38
+        },
+        "total": {
+          "units": 89777,
+          "cartons": 4105
+        }
+      },
+      {
+        "date": "2026-07-03",
+        "label": "03-Jul",
+        "AP": {
+          "units": 8895,
+          "cartons": 491
+        },
+        "FW": {
+          "units": 63678,
+          "cartons": 8373
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 72573,
+          "cartons": 8864
+        }
+      },
+      {
+        "date": "2026-07-06",
+        "label": "06-Jul",
+        "AP": {
+          "units": 91890,
+          "cartons": 4079
+        },
+        "FW": {
+          "units": 17051,
+          "cartons": 2554
+        },
+        "EQ": {
+          "units": 508,
+          "cartons": 43
+        },
+        "total": {
+          "units": 109449,
+          "cartons": 6676
+        }
+      },
+      {
+        "date": "2026-07-07",
+        "label": "07-Jul",
+        "AP": {
+          "units": 92673,
+          "cartons": 3683
+        },
+        "FW": {
+          "units": 46036,
+          "cartons": 5497
+        },
+        "EQ": {
+          "units": 36872,
+          "cartons": 577
+        },
+        "total": {
+          "units": 175581,
+          "cartons": 9757
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "label": "08-Jul",
+        "AP": {
+          "units": 38298,
+          "cartons": 1626
+        },
+        "FW": {
+          "units": 57217,
+          "cartons": 6872
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 95515,
+          "cartons": 8498
+        }
+      },
+      {
+        "date": "2026-07-09",
+        "label": "09-Jul",
+        "AP": {
+          "units": 8374,
+          "cartons": 286
+        },
+        "FW": {
+          "units": 76065,
+          "cartons": 8360
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 84439,
+          "cartons": 8646
+        }
+      },
+      {
+        "date": "2026-07-10",
+        "label": "10-Jul",
+        "AP": {
+          "units": 82099,
+          "cartons": 2619
+        },
+        "FW": {
+          "units": 46666,
+          "cartons": 5053
+        },
+        "EQ": {
+          "units": 24183,
+          "cartons": 1062
+        },
+        "total": {
+          "units": 152948,
+          "cartons": 8734
+        }
+      },
+      {
+        "date": "2026-07-13",
+        "label": "13-Jul",
+        "AP": {
+          "units": 24004,
+          "cartons": 695
+        },
+        "FW": {
+          "units": 34078,
+          "cartons": 3833
+        },
+        "EQ": {
+          "units": 777,
+          "cartons": 23
+        },
+        "total": {
+          "units": 58859,
+          "cartons": 4551
+        }
+      },
+      {
+        "date": "2026-07-14",
+        "label": "14-Jul",
+        "AP": {
+          "units": 13037,
+          "cartons": 302
+        },
+        "FW": {
+          "units": 450,
+          "cartons": 83
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 13487,
+          "cartons": 385
+        }
+      },
+      {
+        "date": "2026-07-15",
+        "label": "15-Jul",
+        "AP": {
+          "units": 29224,
+          "cartons": 1239
+        },
+        "FW": {
+          "units": 50483,
+          "cartons": 5642
+        },
+        "EQ": {
+          "units": 1524,
+          "cartons": 78
+        },
+        "total": {
+          "units": 81231,
+          "cartons": 6959
+        }
+      },
+      {
+        "date": "2026-07-16",
+        "label": "16-Jul",
+        "AP": {
+          "units": 103103,
+          "cartons": 3471
+        },
+        "FW": {
+          "units": 18458,
+          "cartons": 2360
+        },
+        "EQ": {
+          "units": 2902,
+          "cartons": 138
+        },
+        "total": {
+          "units": 124463,
+          "cartons": 5969
+        }
+      },
+      {
+        "date": "2026-07-20",
+        "label": "20-Jul",
+        "AP": {
+          "units": 83682,
+          "cartons": 3117
+        },
+        "FW": {
+          "units": 16508,
+          "cartons": 2193
+        },
+        "EQ": {
+          "units": 17824,
+          "cartons": 328
+        },
+        "total": {
+          "units": 118014,
+          "cartons": 5638
+        }
+      }
+    ],
+    "weeklySeries": [
+      {
+        "week": "2026-06-29",
+        "label": "29-Jun ~ 05-Jul",
+        "AP": {
+          "units": 170858,
+          "cartons": 5428
+        },
+        "FW": {
+          "units": 93358,
+          "cartons": 12420
+        },
+        "EQ": {
+          "units": 4241,
+          "cartons": 113
+        },
+        "total": {
+          "units": 268457,
+          "cartons": 17961
+        }
+      },
+      {
+        "week": "2026-07-06",
+        "label": "06-Jul ~ 12-Jul",
+        "AP": {
+          "units": 313334,
+          "cartons": 12293
+        },
+        "FW": {
+          "units": 243035,
+          "cartons": 28336
+        },
+        "EQ": {
+          "units": 61563,
+          "cartons": 1682
+        },
+        "total": {
+          "units": 617932,
+          "cartons": 42311
+        }
+      },
+      {
+        "week": "2026-07-13",
+        "label": "13-Jul ~ 19-Jul",
+        "AP": {
+          "units": 169368,
+          "cartons": 5707
+        },
+        "FW": {
+          "units": 103469,
+          "cartons": 11918
+        },
+        "EQ": {
+          "units": 5203,
+          "cartons": 239
+        },
+        "total": {
+          "units": 278040,
+          "cartons": 17864
+        }
+      },
+      {
+        "week": "2026-07-20",
+        "label": "20-Jul ~ 26-Jul",
+        "AP": {
+          "units": 83682,
+          "cartons": 3117
+        },
+        "FW": {
+          "units": 16508,
+          "cartons": 2193
+        },
+        "EQ": {
+          "units": 17824,
+          "cartons": 328
+        },
+        "total": {
+          "units": 118014,
+          "cartons": 5638
+        }
+      }
+    ],
+    "season": {
+      "FA2026": {
+        "units": 1159936,
+        "cartons": 78087
+      },
+      "SU2026": {
+        "units": 94911,
+        "cartons": 4193
+      },
+      "HO2026": {
+        "units": 26679,
+        "cartons": 1459
+      },
+      "SP2026": {
+        "units": 917,
+        "cartons": 35
+      }
+    },
+    "mot": {
+      "AF": {
+        "units": 25034,
+        "cartons": 1689
+      },
+      "VL": {
+        "units": 1232502,
+        "cartons": 81413
+      },
+      "TR": {
+        "units": 24907,
+        "cartons": 672
+      }
+    }
+  },
+  "drs": {
+    "dailyKpi": {
+      "units": 73,
+      "cartons": 71,
+      "byDiv": {
+        "AP": {
+          "units": 4,
+          "cartons": 2
+        },
+        "FW": {
+          "units": 69,
+          "cartons": 69
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        }
+      }
+    },
+    "weeklyKpi": {
+      "units": 73,
+      "cartons": 71,
+      "byDiv": {
+        "AP": {
+          "units": 4,
+          "cartons": 2
+        },
+        "FW": {
+          "units": 69,
+          "cartons": 69
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        }
+      }
+    },
+    "all": {
+      "units": 473247,
+      "cartons": 44595,
+      "byDiv": {
+        "AP": {
+          "units": 140584,
+          "cartons": 4362
+        },
+        "FW": {
+          "units": 326597,
+          "cartons": 39890
+        },
+        "EQ": {
+          "units": 6066,
+          "cartons": 343
+        }
+      },
+      "lines": 1023
+    },
+    "dailySeries": [
+      {
+        "date": "2026-07-02",
+        "label": "02-Jul",
+        "AP": {
+          "units": 2104,
+          "cartons": 73
+        },
+        "FW": {
+          "units": 6114,
+          "cartons": 690
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 8218,
+          "cartons": 763
+        }
+      },
+      {
+        "date": "2026-07-05",
+        "label": "05-Jul",
+        "AP": {
+          "units": 0,
+          "cartons": 0
+        },
+        "FW": {
+          "units": 2526,
+          "cartons": 322
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 2526,
+          "cartons": 322
+        }
+      },
+      {
+        "date": "2026-07-06",
+        "label": "06-Jul",
+        "AP": {
+          "units": 85594,
+          "cartons": 2561
+        },
+        "FW": {
+          "units": 114132,
+          "cartons": 14087
+        },
+        "EQ": {
+          "units": 6066,
+          "cartons": 343
+        },
+        "total": {
+          "units": 205792,
+          "cartons": 16991
+        }
+      },
+      {
+        "date": "2026-07-07",
+        "label": "07-Jul",
+        "AP": {
+          "units": 1688,
+          "cartons": 40
+        },
+        "FW": {
+          "units": 0,
+          "cartons": 0
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 1688,
+          "cartons": 40
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "label": "08-Jul",
+        "AP": {
+          "units": 354,
+          "cartons": 12
+        },
+        "FW": {
+          "units": 57546,
+          "cartons": 6914
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 57900,
+          "cartons": 6926
+        }
+      },
+      {
+        "date": "2026-07-09",
+        "label": "09-Jul",
+        "AP": {
+          "units": 3222,
+          "cartons": 137
+        },
+        "FW": {
+          "units": 45770,
+          "cartons": 5281
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 48992,
+          "cartons": 5418
+        }
+      },
+      {
+        "date": "2026-07-10",
+        "label": "10-Jul",
+        "AP": {
+          "units": 5,
+          "cartons": 2
+        },
+        "FW": {
+          "units": 14,
+          "cartons": 10
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 19,
+          "cartons": 12
+        }
+      },
+      {
+        "date": "2026-07-12",
+        "label": "12-Jul",
+        "AP": {
+          "units": 0,
+          "cartons": 0
+        },
+        "FW": {
+          "units": 2310,
+          "cartons": 344
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 2310,
+          "cartons": 344
+        }
+      },
+      {
+        "date": "2026-07-13",
+        "label": "13-Jul",
+        "AP": {
+          "units": 0,
+          "cartons": 0
+        },
+        "FW": {
+          "units": 228,
+          "cartons": 58
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 228,
+          "cartons": 58
+        }
+      },
+      {
+        "date": "2026-07-14",
+        "label": "14-Jul",
+        "AP": {
+          "units": 40673,
+          "cartons": 1308
+        },
+        "FW": {
+          "units": 93502,
+          "cartons": 11664
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 134175,
+          "cartons": 12972
+        }
+      },
+      {
+        "date": "2026-07-19",
+        "label": "19-Jul",
+        "AP": {
+          "units": 6940,
+          "cartons": 227
+        },
+        "FW": {
+          "units": 4386,
+          "cartons": 451
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 11326,
+          "cartons": 678
+        }
+      },
+      {
+        "date": "2026-07-20",
+        "label": "20-Jul",
+        "AP": {
+          "units": 4,
+          "cartons": 2
+        },
+        "FW": {
+          "units": 69,
+          "cartons": 69
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 73,
+          "cartons": 71
+        }
+      }
+    ],
+    "weeklySeries": [
+      {
+        "week": "2026-06-29",
+        "label": "29-Jun ~ 05-Jul",
+        "AP": {
+          "units": 2104,
+          "cartons": 73
+        },
+        "FW": {
+          "units": 8640,
+          "cartons": 1012
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 10744,
+          "cartons": 1085
+        }
+      },
+      {
+        "week": "2026-07-06",
+        "label": "06-Jul ~ 12-Jul",
+        "AP": {
+          "units": 90863,
+          "cartons": 2752
+        },
+        "FW": {
+          "units": 219772,
+          "cartons": 26636
+        },
+        "EQ": {
+          "units": 6066,
+          "cartons": 343
+        },
+        "total": {
+          "units": 316701,
+          "cartons": 29731
+        }
+      },
+      {
+        "week": "2026-07-13",
+        "label": "13-Jul ~ 19-Jul",
+        "AP": {
+          "units": 47613,
+          "cartons": 1535
+        },
+        "FW": {
+          "units": 98116,
+          "cartons": 12173
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 145729,
+          "cartons": 13708
+        }
+      },
+      {
+        "week": "2026-07-20",
+        "label": "20-Jul ~ 26-Jul",
+        "AP": {
+          "units": 4,
+          "cartons": 2
+        },
+        "FW": {
+          "units": 69,
+          "cartons": 69
+        },
+        "EQ": {
+          "units": 0,
+          "cartons": 0
+        },
+        "total": {
+          "units": 73,
+          "cartons": 71
+        }
+      }
+    ],
+    "season": {
+      "SU2027": {
+        "units": 165,
+        "cartons": 145
+      },
+      "SP2027": {
+        "units": 10,
+        "cartons": 5
+      },
+      "FA2026": {
+        "units": 462696,
+        "cartons": 43947
+      },
+      "SU2026": {
+        "units": 8480,
+        "cartons": 335
+      },
+      "HO2026": {
+        "units": 1896,
+        "cartons": 163
+      }
+    },
+    "mot": {
+      "AF": {
+        "units": 2356,
+        "cartons": 249
+      },
+      "VL": {
+        "units": 470891,
+        "cartons": 44346
+      }
+    }
+  },
+  "mot": {
+    "AF": {
+      "units": 27390,
+      "cartons": 1938
+    },
+    "VL": {
+      "units": 1703393,
+      "cartons": 125759
+    },
+    "TR": {
+      "units": 24907,
+      "cartons": 672
+    }
+  }
+}
