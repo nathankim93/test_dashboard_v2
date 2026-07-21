@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-07-21T04:04:04.725Z",
+  "sourceFile": "채널 정보_20260721.xlsx",
+  "totalChannels": 145705,
+  "tallLevels": [
+    "06",
+    "11",
+    "16",
+    "22",
+    "24",
+    "26",
+    "31",
+    "36",
+    "41"
+  ],
+  "definitions": {
+    "full": "Loaded slots = 12",
+    "half": "0 < Loaded slots < 12",
+    "empty": "Loaded slots = 0",
+    "tallLevels": [
+      "06",
+      "11",
+      "16",
+      "22",
+      "24",
+      "26",
+      "31",
+      "36",
+      "41"
+    ],
+    "normal": "All levels except Tall"
+  },
+  "summary": {
+    "overall": {
+      "channels": 145705,
+      "full": 88725,
+      "half": 34161,
+      "empty": 22819,
+      "cartonS": 21403,
+      "cartonM": 239221,
+      "cartonL": 40708,
+      "loadedSlots": 1265341,
+      "largeChannels": 20558,
+      "largeFull": 20150,
+      "largeHalf": 408
+    },
+    "byHighbay": {
+      "HB.A": {
+        "channels": 72180,
+        "full": 39047,
+        "half": 19888,
+        "empty": 13245,
+        "cartonS": 11615,
+        "cartonM": 111451,
+        "cartonL": 17077,
+        "loadedSlots": 583111,
+        "largeChannels": 8608,
+        "largeFull": 8469,
+        "largeHalf": 139
+      },
+      "HB.B": {
+        "channels": 73525,
+        "full": 49678,
+        "half": 14273,
+        "empty": 9574,
+        "cartonS": 9788,
+        "cartonM": 127770,
+        "cartonL": 23631,
+        "loadedSlots": 682230,
+        "largeChannels": 11950,
+        "largeFull": 11681,
+        "largeHalf": 269
+      }
+    },
+    "byLocation": {
+      "tall": {
+        "channels": 29160,
+        "full": 2582,
+        "half": 17750,
+        "empty": 8828,
+        "cartonS": 96,
+        "cartonM": 27737,
+        "cartonL": 630,
+        "loadedSlots": 115016,
+        "largeChannels": 417,
+        "largeFull": 213,
+        "largeHalf": 204
+      },
+      "normal": {
+        "channels": 116545,
+        "full": 86143,
+        "half": 16411,
+        "empty": 13991,
+        "cartonS": 21307,
+        "cartonM": 211484,
+        "cartonL": 40078,
+        "loadedSlots": 1150325,
+        "largeChannels": 20141,
+        "largeFull": 19937,
+        "largeHalf": 204
+      }
+    },
+    "matrix": {
+      "HB.A": {
+        "tall": {
+          "channels": 14445,
+          "full": 1367,
+          "half": 10069,
+          "empty": 3009,
+          "cartonS": 22,
+          "cartonM": 14517,
+          "cartonL": 357,
+          "loadedSlots": 60276,
+          "largeChannels": 223,
+          "largeFull": 134,
+          "largeHalf": 89
+        },
+        "normal": {
+          "channels": 57735,
+          "full": 37680,
+          "half": 9819,
+          "empty": 10236,
+          "cartonS": 11593,
+          "cartonM": 96934,
+          "cartonL": 16720,
+          "loadedSlots": 522835,
+          "largeChannels": 8385,
+          "largeFull": 8335,
+          "largeHalf": 50
+        }
+      },
+      "HB.B": {
+        "tall": {
+          "channels": 14715,
+          "full": 1215,
+          "half": 7681,
+          "empty": 5819,
+          "cartonS": 74,
+          "cartonM": 13220,
+          "cartonL": 273,
+          "loadedSlots": 54740,
+          "largeChannels": 194,
+          "largeFull": 79,
+          "largeHalf": 115
+        },
+        "normal": {
+          "channels": 58810,
+          "full": 48463,
+          "half": 6592,
+          "empty": 3755,
+          "cartonS": 9714,
+          "cartonM": 114550,
+          "cartonL": 23358,
+          "loadedSlots": 627490,
+          "largeChannels": 11756,
+          "largeFull": 11602,
+          "largeHalf": 154
+        }
+      }
+    },
+    "byCartonSize": {
+      "S": {
+        "byHighbay": {
+          "HB.A": {
+            "channels": 3848,
+            "full": 1728,
+            "half": 2120,
+            "empty": 0,
+            "cartonS": 11615,
+            "cartonM": 0,
+            "cartonL": 0,
+            "loadedSlots": 34845,
+            "largeChannels": 0,
+            "largeFull": 0,
+            "largeHalf": 0
+          },
+          "HB.B": {
+            "channels": 3131,
+            "full": 1615,
+            "half": 1516,
+            "empty": 0,
+            "cartonS": 9788,
+            "cartonM": 0,
+            "cartonL": 0,
+            "loadedSlots": 29364,
+            "largeChannels": 0,
+            "largeFull": 0,
+            "largeHalf": 0
+          }
+        },
+        "matrix": {
+          "HB.A": {
+            "tall": {
+              "channels": 21,
+              "full": 0,
+              "half": 21,
+              "empty": 0,
+              "cartonS": 22,
+              "cartonM": 0,
+              "cartonL": 0,
+              "loadedSlots": 66,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            },
+            "normal": {
+              "channels": 3827,
+              "full": 1728,
+              "half": 2099,
+              "empty": 0,
+              "cartonS": 11593,
+              "cartonM": 0,
+              "cartonL": 0,
+              "loadedSlots": 34779,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            }
+          },
+          "HB.B": {
+            "tall": {
+              "channels": 59,
+              "full": 0,
+              "half": 59,
+              "empty": 0,
+              "cartonS": 74,
+              "cartonM": 0,
+              "cartonL": 0,
+              "loadedSlots": 222,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            },
+            "normal": {
+              "channels": 3072,
+              "full": 1615,
+              "half": 1457,
+              "empty": 0,
+              "cartonS": 9714,
+              "cartonM": 0,
+              "cartonL": 0,
+              "loadedSlots": 29142,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            }
+          }
+        }
+      },
+      "M": {
+        "byHighbay": {
+          "HB.A": {
+            "channels": 46479,
+            "full": 28850,
+            "half": 17629,
+            "empty": 0,
+            "cartonS": 0,
+            "cartonM": 111451,
+            "cartonL": 0,
+            "loadedSlots": 445804,
+            "largeChannels": 0,
+            "largeFull": 0,
+            "largeHalf": 0
+          },
+          "HB.B": {
+            "channels": 48870,
+            "full": 36382,
+            "half": 12488,
+            "empty": 0,
+            "cartonS": 0,
+            "cartonM": 127770,
+            "cartonL": 0,
+            "loadedSlots": 511080,
+            "largeChannels": 0,
+            "largeFull": 0,
+            "largeHalf": 0
+          }
+        },
+        "matrix": {
+          "HB.A": {
+            "tall": {
+              "channels": 11192,
+              "full": 1233,
+              "half": 9959,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 14517,
+              "cartonL": 0,
+              "loadedSlots": 58068,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            },
+            "normal": {
+              "channels": 35287,
+              "full": 27617,
+              "half": 7670,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 96934,
+              "cartonL": 0,
+              "loadedSlots": 387736,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            }
+          },
+          "HB.B": {
+            "tall": {
+              "channels": 8643,
+              "full": 1136,
+              "half": 7507,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 13220,
+              "cartonL": 0,
+              "loadedSlots": 52880,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            },
+            "normal": {
+              "channels": 40227,
+              "full": 35246,
+              "half": 4981,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 114550,
+              "cartonL": 0,
+              "loadedSlots": 458200,
+              "largeChannels": 0,
+              "largeFull": 0,
+              "largeHalf": 0
+            }
+          }
+        }
+      },
+      "L": {
+        "byHighbay": {
+          "HB.A": {
+            "channels": 8608,
+            "full": 8469,
+            "half": 139,
+            "empty": 0,
+            "cartonS": 0,
+            "cartonM": 0,
+            "cartonL": 17077,
+            "loadedSlots": 102462,
+            "largeChannels": 8608,
+            "largeFull": 8469,
+            "largeHalf": 139
+          },
+          "HB.B": {
+            "channels": 11950,
+            "full": 11681,
+            "half": 269,
+            "empty": 0,
+            "cartonS": 0,
+            "cartonM": 0,
+            "cartonL": 23631,
+            "loadedSlots": 141786,
+            "largeChannels": 11950,
+            "largeFull": 11681,
+            "largeHalf": 269
+          }
+        },
+        "matrix": {
+          "HB.A": {
+            "tall": {
+              "channels": 223,
+              "full": 134,
+              "half": 89,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 0,
+              "cartonL": 357,
+              "loadedSlots": 2142,
+              "largeChannels": 223,
+              "largeFull": 134,
+              "largeHalf": 89
+            },
+            "normal": {
+              "channels": 8385,
+              "full": 8335,
+              "half": 50,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 0,
+              "cartonL": 16720,
+              "loadedSlots": 100320,
+              "largeChannels": 8385,
+              "largeFull": 8335,
+              "largeHalf": 50
+            }
+          },
+          "HB.B": {
+            "tall": {
+              "channels": 194,
+              "full": 79,
+              "half": 115,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 0,
+              "cartonL": 273,
+              "loadedSlots": 1638,
+              "largeChannels": 194,
+              "largeFull": 79,
+              "largeHalf": 115
+            },
+            "normal": {
+              "channels": 11756,
+              "full": 11602,
+              "half": 154,
+              "empty": 0,
+              "cartonS": 0,
+              "cartonM": 0,
+              "cartonL": 23358,
+              "loadedSlots": 140148,
+              "largeChannels": 11756,
+              "largeFull": 11602,
+              "largeHalf": 154
+            }
+          }
+        }
+      }
+    }
+  },
+  "warehouses": [
+    {
+      "name": "HB.A(OSR2)",
+      "highbay": "HB.A",
+      "channelCount": 72180
+    },
+    {
+      "name": "HB.B(OSR1)",
+      "highbay": "HB.B",
+      "channelCount": 73525
+    }
+  ]
+}

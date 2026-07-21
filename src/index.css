@@ -1,0 +1,101 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --color-mck-navy: #051c2c;
+  --color-mck-ink: #0a1f2d;
+  --color-mck-teal: #00a9ce;
+  --color-mck-teal-deep: #0086a8;
+  --color-mck-gray: #53565a;
+  --color-mck-mist: #f0f2f5;
+  --color-mck-line: #d9dde3;
+  --color-mck-soft: #e8eef2;
+  --tracking-section: 0.18em;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background: #ffffff;
+    color: #051c2c;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .mck-rule {
+    height: 3px;
+    width: 48px;
+    background: #00a9ce;
+  }
+
+  .mck-panel {
+    background: #ffffff;
+    border: 1px solid #d9dde3;
+  }
+
+  .slicer-btn {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border: 1px solid #d9dde3;
+    background: #ffffff;
+    color: #53565a;
+    padding: 6px 12px;
+    transition:
+      background 0.12s ease,
+      color 0.12s ease,
+      border-color 0.12s ease;
+  }
+
+  .slicer-btn:hover {
+    border-color: #051c2c;
+    color: #051c2c;
+  }
+
+  .slicer-btn.active {
+    background: #051c2c;
+    border-color: #051c2c;
+    color: #ffffff;
+  }
+
+  .kpi-num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+
+  .tracking-section {
+    letter-spacing: 0.18em;
+  }
+
+  .kpi-detail-sub {
+    font-size: 1.05rem;
+  }
+  .kpi-detail-note {
+    font-size: 0.9rem;
+  }
+  .kpi-detail-label {
+    font-size: 0.825rem;
+  }
+  .kpi-detail-value {
+    font-size: 1.05rem;
+  }
+  .kpi-detail-pct {
+    font-size: 0.9rem;
+  }
+}
