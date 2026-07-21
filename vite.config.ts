@@ -2,8 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// GitHub Actions sets GITHUB_REPOSITORY=owner/repo → base=/repo/
-// Local dev keeps base=/ so http://127.0.0.1:5200/ still works.
+// Local: base=/  → http://127.0.0.1:5200/
+// GitHub Actions: set VITE_BASE=/test_dashboard_v2/ (or /${{ github.event.repository.name }}/)
+// Also auto-detects GITHUB_REPOSITORY when present.
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1]
 const base = process.env.VITE_BASE || (repoName ? `/${repoName}/` : '/')
 
